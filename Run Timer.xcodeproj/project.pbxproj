@@ -37,6 +37,7 @@
 		6EC58DB41A3102AE009AA4D5 /* Changes in Resources */ = {isa = PBXBuildFile; fileRef = 6EC58DB21A3102AE009AA4D5 /* Changes */; };
 		6EC58DB51A3102AE009AA4D5 /* TemplateIcon2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6EC58DB31A3102AE009AA4D5 /* TemplateIcon2x.png */; };
 		6ED078361A30DA9200B126A4 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ED078351A30DA9200B126A4 /* Social.framework */; };
+		E90CAC1D1A6A8A8A00D56E9A /* ParseCrashReporting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E90CAC1C1A6A8A8A00D56E9A /* ParseCrashReporting.framework */; };
 		EA0007011A12047200239B2C /* Blurred Backgrounds (1).jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA0006E91A12047200239B2C /* Blurred Backgrounds (1).jpg */; };
 		EA0007021A12047200239B2C /* Blurred Backgrounds (2).jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA0006EA1A12047200239B2C /* Blurred Backgrounds (2).jpg */; };
 		EA0007031A12047200239B2C /* Blurred Backgrounds (3).jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA0006EB1A12047200239B2C /* Blurred Backgrounds (3).jpg */; };
@@ -301,6 +302,7 @@
 		6EC58DB21A3102AE009AA4D5 /* Changes */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Changes; sourceTree = "<group>"; };
 		6EC58DB31A3102AE009AA4D5 /* TemplateIcon2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TemplateIcon2x.png; sourceTree = "<group>"; };
 		6ED078351A30DA9200B126A4 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		E90CAC1C1A6A8A8A00D56E9A /* ParseCrashReporting.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseCrashReporting.framework; sourceTree = "<group>"; };
 		EA0006E91A12047200239B2C /* Blurred Backgrounds (1).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Blurred Backgrounds (1).jpg"; sourceTree = "<group>"; };
 		EA0006EA1A12047200239B2C /* Blurred Backgrounds (2).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Blurred Backgrounds (2).jpg"; sourceTree = "<group>"; };
 		EA0006EB1A12047200239B2C /* Blurred Backgrounds (3).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Blurred Backgrounds (3).jpg"; sourceTree = "<group>"; };
@@ -541,8 +543,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA0E8C991A59362300383EDD /* AVFoundation.framework in Frameworks */,
 				EA5B21371A08B27000CE88A0 /* CoreLocation.framework in Frameworks */,
+				EA0E8C991A59362300383EDD /* AVFoundation.framework in Frameworks */,
 				6ED078361A30DA9200B126A4 /* Social.framework in Frameworks */,
 				6E6A50311A2EC931007C6DFD /* ParseFacebookUtils.framework in Frameworks */,
 				EA5B21471A08B2D500CE88A0 /* CoreGraphics.framework in Frameworks */,
@@ -560,6 +562,7 @@
 				EA5B213B1A08B27A00CE88A0 /* iAd.framework in Frameworks */,
 				EA5B21391A08B27600CE88A0 /* AdSupport.framework in Frameworks */,
 				EA5B21351A08B25D00CE88A0 /* libz.dylib in Frameworks */,
+				E90CAC1D1A6A8A8A00D56E9A /* ParseCrashReporting.framework in Frameworks */,
 				EA882CF61A0616BF004318BD /* SystemConfiguration.framework in Frameworks */,
 				EA882CF41A06162F004318BD /* NetworkExtension.framework in Frameworks */,
 				EA882CF01A061604004318BD /* CoreTelephony.framework in Frameworks */,
@@ -639,6 +642,7 @@
 		5B2A10CC198FE75D005F8E06 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E90CAC1C1A6A8A8A00D56E9A /* ParseCrashReporting.framework */,
 				EA0E8C981A59362300383EDD /* AVFoundation.framework */,
 				6ED078351A30DA9200B126A4 /* Social.framework */,
 				6E6A502B1A2EC931007C6DFD /* Bolts.framework */,
@@ -1149,10 +1153,10 @@
 				ORGANIZATIONNAME = "";
 				TargetAttributes = {
 					5B2A10C9198FE75D005F8E06 = {
-						DevelopmentTeam = 45J9WDN6PB;
+						DevelopmentTeam = JGKS72ETPX;
 					};
 					5B2A10EA198FE75D005F8E06 = {
-						DevelopmentTeam = 45J9WDN6PB;
+						DevelopmentTeam = JGKS72ETPX;
 						TestTargetID = 5B2A10C9198FE75D005F8E06;
 					};
 				};
