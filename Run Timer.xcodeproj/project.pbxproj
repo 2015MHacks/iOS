@@ -63,8 +63,6 @@
 		EA0007231A120FE200239B2C /* ButtonSE@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA0007211A120FE200239B2C /* ButtonSE@2x.png */; };
 		EA0007241A120FE200239B2C /* ButtonSE@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA0007221A120FE200239B2C /* ButtonSE@3x.png */; };
 		EA0065BE1A034BDD004F78C4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA0065BD1A034BDD004F78C4 /* QuartzCore.framework */; };
-		EA04D04E1A6394D4001D020C /* Background 10.16.58 AM.png in Resources */ = {isa = PBXBuildFile; fileRef = EA04D04D1A6394D4001D020C /* Background 10.16.58 AM.png */; };
-		EA04D0501A639568001D020C /* City.png in Resources */ = {isa = PBXBuildFile; fileRef = EA04D04F1A639568001D020C /* City.png */; };
 		EA04D0521A6395E4001D020C /* Cars.png in Resources */ = {isa = PBXBuildFile; fileRef = EA04D0511A6395E4001D020C /* Cars.png */; };
 		EA04D0541A6398CD001D020C /* Space.png in Resources */ = {isa = PBXBuildFile; fileRef = EA04D0531A6398CD001D020C /* Space.png */; };
 		EA04D0561A63AC4A001D020C /* cali.png in Resources */ = {isa = PBXBuildFile; fileRef = EA04D0551A63AC4A001D020C /* cali.png */; };
@@ -172,13 +170,11 @@
 		EA882CF21A061612004318BD /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA882CF11A061612004318BD /* CFNetwork.framework */; };
 		EA882CF41A06162F004318BD /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA882CF31A06162F004318BD /* NetworkExtension.framework */; };
 		EA882CF61A0616BF004318BD /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA882CF51A0616BF004318BD /* SystemConfiguration.framework */; };
-		EA891AC71A6380180081FFC7 /* Background 10.16.58 AM.png in Resources */ = {isa = PBXBuildFile; fileRef = EA891AC61A6380180081FFC7 /* Background 10.16.58 AM.png */; };
 		EA891AC91A6380A50081FFC7 /* materialdesign.png in Resources */ = {isa = PBXBuildFile; fileRef = EA891AC81A6380A50081FFC7 /* materialdesign.png */; };
 		EA891ACE1A63850B0081FFC7 /* blots.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA891ACA1A63850B0081FFC7 /* blots.jpg */; };
 		EA891ACF1A63850B0081FFC7 /* iphoneb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA891ACB1A63850B0081FFC7 /* iphoneb.jpg */; };
 		EA891AD01A63850B0081FFC7 /* serve2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA891ACC1A63850B0081FFC7 /* serve2.jpg */; };
 		EA891AD11A63850B0081FFC7 /* type-set.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA891ACD1A63850B0081FFC7 /* type-set.jpg */; };
-		EA891AD31A6385500081FFC7 /* Earth.png in Resources */ = {isa = PBXBuildFile; fileRef = EA891AD21A6385500081FFC7 /* Earth.png */; };
 		EA8ADF3C19FCD835009C25E8 /* Forestsun.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA8ADF3819FCD835009C25E8 /* Forestsun.jpg */; };
 		EA8B5E061A121C4800F46810 /* Lemona inc Blue Cover.png in Resources */ = {isa = PBXBuildFile; fileRef = EA8B5E051A121C4800F46810 /* Lemona inc Blue Cover.png */; };
 		EA9100D819A6E37800933961 /* Coffee Beans.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA9100D719A6E37800933961 /* Coffee Beans.jpg */; };
@@ -328,8 +324,6 @@
 		EA0007211A120FE200239B2C /* ButtonSE@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ButtonSE@2x.png"; sourceTree = "<group>"; };
 		EA0007221A120FE200239B2C /* ButtonSE@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ButtonSE@3x.png"; sourceTree = "<group>"; };
 		EA0065BD1A034BDD004F78C4 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		EA04D04D1A6394D4001D020C /* Background 10.16.58 AM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Background 10.16.58 AM.png"; sourceTree = "<group>"; };
-		EA04D04F1A639568001D020C /* City.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = City.png; sourceTree = "<group>"; };
 		EA04D0511A6395E4001D020C /* Cars.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Cars.png; sourceTree = "<group>"; };
 		EA04D0531A6398CD001D020C /* Space.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Space.png; sourceTree = "<group>"; };
 		EA04D0551A63AC4A001D020C /* cali.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cali.png; sourceTree = "<group>"; };
@@ -470,13 +464,11 @@
 		EA882CF11A061612004318BD /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		EA882CF31A06162F004318BD /* NetworkExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetworkExtension.framework; path = System/Library/Frameworks/NetworkExtension.framework; sourceTree = SDKROOT; };
 		EA882CF51A0616BF004318BD /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		EA891AC61A6380180081FFC7 /* Background 10.16.58 AM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Background 10.16.58 AM.png"; sourceTree = "<group>"; };
 		EA891AC81A6380A50081FFC7 /* materialdesign.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = materialdesign.png; sourceTree = "<group>"; };
 		EA891ACA1A63850B0081FFC7 /* blots.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = blots.jpg; sourceTree = "<group>"; };
 		EA891ACB1A63850B0081FFC7 /* iphoneb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = iphoneb.jpg; sourceTree = "<group>"; };
 		EA891ACC1A63850B0081FFC7 /* serve2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = serve2.jpg; sourceTree = "<group>"; };
 		EA891ACD1A63850B0081FFC7 /* type-set.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "type-set.jpg"; sourceTree = "<group>"; };
-		EA891AD21A6385500081FFC7 /* Earth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Earth.png; sourceTree = "<group>"; };
 		EA8ADF3819FCD835009C25E8 /* Forestsun.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Forestsun.jpg; sourceTree = "<group>"; };
 		EA8B5E051A121C4800F46810 /* Lemona inc Blue Cover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lemona inc Blue Cover.png"; sourceTree = "<group>"; };
 		EA9100D719A6E37800933961 /* Coffee Beans.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Coffee Beans.jpg"; sourceTree = "<group>"; };
@@ -587,7 +579,6 @@
 			isa = PBXGroup;
 			children = (
 				EA63F46E1A6A6C6000CF1F24 /* background.jpg */,
-				EA04D04D1A6394D4001D020C /* Background 10.16.58 AM.png */,
 				6EC58DB21A3102AE009AA4D5 /* Changes */,
 				6EC58DB31A3102AE009AA4D5 /* TemplateIcon2x.png */,
 				EA188A801A2BB8E1003708E9 /* SiteDetailViewController.h */,
@@ -700,14 +691,11 @@
 				EA04D0551A63AC4A001D020C /* cali.png */,
 				EA04D0531A6398CD001D020C /* Space.png */,
 				EA04D0511A6395E4001D020C /* Cars.png */,
-				EA04D04F1A639568001D020C /* City.png */,
-				EA891AD21A6385500081FFC7 /* Earth.png */,
 				EA891ACA1A63850B0081FFC7 /* blots.jpg */,
 				EA891ACB1A63850B0081FFC7 /* iphoneb.jpg */,
 				EA891ACC1A63850B0081FFC7 /* serve2.jpg */,
 				EA891ACD1A63850B0081FFC7 /* type-set.jpg */,
 				EA891AC81A6380A50081FFC7 /* materialdesign.png */,
-				EA891AC61A6380180081FFC7 /* Background 10.16.58 AM.png */,
 				EAD655D11A5E55970044E97C /* Messaging  */,
 				EA0E8C9D1A59387600383EDD /* right_answer.mp3 */,
 				EA2EDF381A35720200BEA2CE /* IMG_2835.JPG */,
@@ -1191,7 +1179,6 @@
 				EA214A351A02107A00BC909C /* topbar.png in Resources */,
 				EAC1C0FE1A015080006E9DD1 /* twitterlogo5.png in Resources */,
 				EA04D05E1A63B751001D020C /* Silicon Valley.jpg in Resources */,
-				EA891AC71A6380180081FFC7 /* Background 10.16.58 AM.png in Resources */,
 				EAC1C0FA1A014FF4006E9DD1 /* facebooklogo5.png in Resources */,
 				EA6F298F1A01DC3B0086A663 /* MainMenu@3x.png in Resources */,
 				EA04D05C1A63B255001D020C /* Screen Shot 2015-01-07 at 9.43.55 AM.png in Resources */,
@@ -1226,7 +1213,6 @@
 				EA891AD11A63850B0081FFC7 /* type-set.jpg in Resources */,
 				EA841BA51A11D3D700DF87A0 /* facebooklogo5@3x.png in Resources */,
 				EA00070C1A12047200239B2C /* Blurred Backgrounds (12).jpg in Resources */,
-				EA04D04E1A6394D4001D020C /* Background 10.16.58 AM.png in Resources */,
 				EA0007151A12047200239B2C /* Blurred Backgrounds (21).jpg in Resources */,
 				EAECAC3D1A6389B800A61CC6 /* wall-e.png in Resources */,
 				EA2CC4DB1A6A4269003E4CB7 /* UIBLUR.png in Resources */,
@@ -1260,7 +1246,6 @@
 				EA841BAD1A11D63D00DF87A0 /* Blurred Backgrounds (22).jpg in Resources */,
 				EA0007041A12047200239B2C /* Blurred Backgrounds (4).jpg in Resources */,
 				EA0007031A12047200239B2C /* Blurred Backgrounds (3).jpg in Resources */,
-				EA04D0501A639568001D020C /* City.png in Resources */,
 				EA04D0581A63AD73001D020C /* jlm-stars-hollywood-sign.jpg in Resources */,
 				EAA9F53C1A2B13CF004DF14A /* Lemona Logo New.png in Resources */,
 				EA0007161A12047200239B2C /* Blurred Backgrounds (22).jpg in Resources */,
@@ -1270,7 +1255,6 @@
 				EA0007141A12047200239B2C /* Blurred Backgrounds (20).jpg in Resources */,
 				6EC58DB41A3102AE009AA4D5 /* Changes in Resources */,
 				EAA9F5321A2B13CF004DF14A /* CAbear@2x.png in Resources */,
-				EA891AD31A6385500081FFC7 /* Earth.png in Resources */,
 				EA63F4561A6A665000CF1F24 /* panels.json in Resources */,
 				EA8B5E061A121C4800F46810 /* Lemona inc Blue Cover.png in Resources */,
 				EAC1C0ED1A0144DF006E9DD1 /* Location@2x.png in Resources */,
