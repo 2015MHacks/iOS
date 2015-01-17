@@ -38,6 +38,7 @@
 		6EC58DB51A3102AE009AA4D5 /* TemplateIcon2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6EC58DB31A3102AE009AA4D5 /* TemplateIcon2x.png */; };
 		6ED078361A30DA9200B126A4 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ED078351A30DA9200B126A4 /* Social.framework */; };
 		E90CAC1D1A6A8A8A00D56E9A /* ParseCrashReporting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E90CAC1C1A6A8A8A00D56E9A /* ParseCrashReporting.framework */; };
+		E976D4DD1A6AC76A003C8C46 /* mapsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E976D4DC1A6AC76A003C8C46 /* mapsViewController.m */; };
 		EA0007011A12047200239B2C /* Blurred Backgrounds (1).jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA0006E91A12047200239B2C /* Blurred Backgrounds (1).jpg */; };
 		EA0007021A12047200239B2C /* Blurred Backgrounds (2).jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA0006EA1A12047200239B2C /* Blurred Backgrounds (2).jpg */; };
 		EA0007031A12047200239B2C /* Blurred Backgrounds (3).jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA0006EB1A12047200239B2C /* Blurred Backgrounds (3).jpg */; };
@@ -299,6 +300,8 @@
 		6EC58DB31A3102AE009AA4D5 /* TemplateIcon2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TemplateIcon2x.png; sourceTree = "<group>"; };
 		6ED078351A30DA9200B126A4 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		E90CAC1C1A6A8A8A00D56E9A /* ParseCrashReporting.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseCrashReporting.framework; sourceTree = "<group>"; };
+		E976D4DB1A6AC76A003C8C46 /* mapsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mapsViewController.h; sourceTree = "<group>"; };
+		E976D4DC1A6AC76A003C8C46 /* mapsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mapsViewController.m; sourceTree = "<group>"; };
 		EA0006E91A12047200239B2C /* Blurred Backgrounds (1).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Blurred Backgrounds (1).jpg"; sourceTree = "<group>"; };
 		EA0006EA1A12047200239B2C /* Blurred Backgrounds (2).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Blurred Backgrounds (2).jpg"; sourceTree = "<group>"; };
 		EA0006EB1A12047200239B2C /* Blurred Backgrounds (3).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Blurred Backgrounds (3).jpg"; sourceTree = "<group>"; };
@@ -578,6 +581,8 @@
 		5B2A10C1198FE75D005F8E06 = {
 			isa = PBXGroup;
 			children = (
+				E976D4DB1A6AC76A003C8C46 /* mapsViewController.h */,
+				E976D4DC1A6AC76A003C8C46 /* mapsViewController.m */,
 				EA63F46E1A6A6C6000CF1F24 /* background.jpg */,
 				6EC58DB21A3102AE009AA4D5 /* Changes */,
 				6EC58DB31A3102AE009AA4D5 /* TemplateIcon2x.png */,
@@ -1343,6 +1348,7 @@
 				EAECAC431A6389C100A61CC6 /* TableViewController.swift in Sources */,
 				EAECAC331A6389A400A61CC6 /* MKTextField.swift in Sources */,
 				EA841BD31A11D9C600DF87A0 /* LeftMenuVC.m in Sources */,
+				E976D4DD1A6AC76A003C8C46 /* mapsViewController.m in Sources */,
 				EA841BC41A11D9AE00DF87A0 /* UIViewController+AMSlideMenu.m in Sources */,
 				EA841BC21A11D9AE00DF87A0 /* AMSlideMenuRightMenuSegue.m in Sources */,
 				EA0E8C961A59361000383EDD /* SCLAlertViewResponder.m in Sources */,
