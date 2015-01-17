@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>EA1C98F3-7377-44FF-9665-EB5ED3C8A65C</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Run Timer</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>AF560A61E3D90EB0FD5778A2A9067210F198BC93</key>
+		<string>github.com:2015MHacks/iOS.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Run Timer.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>AF560A61E3D90EB0FD5778A2A9067210F198BC93</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:2015MHacks/iOS.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>AF560A61E3D90EB0FD5778A2A9067210F198BC93</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>AF560A61E3D90EB0FD5778A2A9067210F198BC93</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Run%20Timer</string>
+		</dict>
+	</array>
+</dict>
+</plist>

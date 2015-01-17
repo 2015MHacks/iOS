@@ -77,7 +77,7 @@
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ukI-Js-rwh" customClass="MKButton" customModule="WhatsHere" customModuleProvider="target">
                                         <rect key="frame" x="-2" y="372" width="325" height="80"/>
-                                        <color key="backgroundColor" red="1" green="0.50196081399917603" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="backgroundColor" red="1" green="0.50196081399917603" blue="0.0" alpha="0.80000000000000004" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="35"/>
                                         <state key="normal" title="→">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -215,7 +215,7 @@
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BM5-Np-P7z" customClass="MKButton" customModule="WhatsHere" customModuleProvider="target">
                                         <rect key="frame" x="-1" y="150" width="320" height="80"/>
-                                        <color key="backgroundColor" red="1" green="0.50196081399917603" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="backgroundColor" red="1" green="0.50196081399917603" blue="0.0" alpha="0.80000000000000004" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="35"/>
                                         <state key="normal" title="Yes">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -3133,9 +3133,9 @@
     <inferredMetricsTieBreakers>
         <segue reference="BVi-Ic-nDD"/>
         <segue reference="HVU-Nz-oVv"/>
-        <segue reference="3hg-08-RuZ"/>
         <segue reference="3HO-RQ-Nwl"/>
-        <segue reference="eFz-bm-Yrk"/>
+        <segue reference="lqc-zS-iiu"/>
+        <segue reference="80N-Ar-bTz"/>
         <segue reference="STE-zx-0d0"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.40000000596046448" green="0.80000001192092896" blue="1" alpha="1" colorSpace="calibratedRGB"/>
