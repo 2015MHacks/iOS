@@ -8,6 +8,7 @@
 
 
 #import "LoginUIViewController.h"
+#import <iAd/iAd.h>
 #import <Parse/Parse.h>
 #import <ParseUI/ParseUI.h>
 #import "UIERealTimeBlurView.h"
@@ -26,6 +27,16 @@
 @implementation LoginUIViewController
 JMBackgroundCameraView *v;
 
+BOOL _bannerIsVisible;
+ADBannerView *_adBanner;
+
+
+-(IBAction)hideall {
+    
+}
+-(IBAction)revealall {
+    
+}
 
 
 - (void)viewDidLoad
@@ -54,7 +65,8 @@ JMBackgroundCameraView *v;
 {
     [super viewDidAppear:animated];
     
-
+    _adBanner = [[ADBannerView alloc] initWithFrame:CGRectMake(0, self.view.frame.size.height, 320, 50)];
+    _adBanner.delegate = self;
     
     // Parse:: To test uncomment the below block
     /*if ([PFUser currentUser])
@@ -148,8 +160,43 @@ JMBackgroundCameraView *v;
  -- END --
 */
 
+- (void)bannerViewDidLoadAd:(ADBannerView *)banner
+{
+    if (!_bannerIsVisible)
+    {
+        // If banner isn't part of view hierarchy, add it
+        if (_adBanner.superview == nil)
+        {
+            [self.view addSubview:_adBanner];
+        }
+        
+        [UIView beginAnimations:@"animateAdBannerOn" context:NULL];
+        
+        // Assumes the banner view is just off the bottom of the screen.
+        banner.frame = CGRectOffset(banner.frame, 0, -banner.frame.size.height);
+        
+        [UIView commitAnimations];
+        
+        _bannerIsVisible = YES;
+    }
+}
 
-  
+- (void)bannerView:(ADBannerView *)banner didFailToReceiveAdWithError:(NSError *)error
+{
+    NSLog(@"Failed to retrieve ad");
+    
+    if (_bannerIsVisible)
+    {
+        [UIView beginAnimations:@"animateAdBannerOff" context:NULL];
+        
+        // Assumes the banner view is placed at the bottom of the screen.
+        banner.frame = CGRectOffset(banner.frame, 0, banner.frame.size.height);
+        
+        [UIView commitAnimations];
+        
+        _bannerIsVisible = NO;
+    }
+}
 
 
 

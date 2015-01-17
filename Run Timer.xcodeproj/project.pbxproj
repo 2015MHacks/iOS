@@ -21,7 +21,6 @@
 		5B2A112E198FE914005F8E06 /* ECSlidingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B2A1127198FE914005F8E06 /* ECSlidingViewController.m */; };
 		5B2A112F198FE914005F8E06 /* UIViewController+ECSlidingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B2A1129198FE914005F8E06 /* UIViewController+ECSlidingViewController.m */; };
 		5B2A1132198FE9EC005F8E06 /* ParentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B2A1131198FE9EC005F8E06 /* ParentViewController.m */; };
-		5B2A1136198FED19005F8E06 /* LoginUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B2A1135198FED19005F8E06 /* LoginUIViewController.m */; };
 		5B2A113A198FF6D2005F8E06 /* SlidingMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B2A1139198FF6D2005F8E06 /* SlidingMenuViewController.m */; };
 		5B4026D419912295008A7A30 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4026D319912295008A7A30 /* ProfileViewController.m */; };
 		5B563ABD1998DBC8003CBE16 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B563ABC1998DBC8003CBE16 /* SearchViewController.m */; };
@@ -179,6 +178,9 @@
 		EA8ADF3C19FCD835009C25E8 /* Forestsun.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA8ADF3819FCD835009C25E8 /* Forestsun.jpg */; };
 		EA8B5E061A121C4800F46810 /* Lemona inc Blue Cover.png in Resources */ = {isa = PBXBuildFile; fileRef = EA8B5E051A121C4800F46810 /* Lemona inc Blue Cover.png */; };
 		EA9100D819A6E37800933961 /* Coffee Beans.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA9100D719A6E37800933961 /* Coffee Beans.jpg */; };
+		EA95AE851A6AC982003540B8 /* LoginUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA95AE841A6AC982003540B8 /* LoginUIViewController.m */; };
+		EA95AE871A6AD2EC003540B8 /* BlurMain.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA95AE861A6AD2EC003540B8 /* BlurMain.jpg */; };
+		EA95AE891A6AD2FF003540B8 /* Success.png in Resources */ = {isa = PBXBuildFile; fileRef = EA95AE881A6AD2FF003540B8 /* Success.png */; };
 		EAA9F5131A2B128C004DF14A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAA9F5121A2B128C004DF14A /* Main.storyboard */; };
 		EAA9F52B1A2B13CF004DF14A /* Bav1.png in Resources */ = {isa = PBXBuildFile; fileRef = EAA9F5141A2B13CE004DF14A /* Bav1.png */; };
 		EAA9F52C1A2B13CF004DF14A /* Bav2.png in Resources */ = {isa = PBXBuildFile; fileRef = EAA9F5151A2B13CE004DF14A /* Bav2.png */; };
@@ -215,6 +217,27 @@
 		EAC566551A034C350049194F /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAC566541A034C350049194F /* CoreAudio.framework */; };
 		EAD193461A24224F00B09AAB /* icon-coffee-shop@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EAD193451A24224F00B09AAB /* icon-coffee-shop@3x.png */; };
 		EAD655D01A5E530E0044E97C /* WelcomeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAD655CF1A5E530E0044E97C /* WelcomeView.xib */; };
+		EAE3AF331A6AD492003647B0 /* Successwhite.png in Resources */ = {isa = PBXBuildFile; fileRef = EAE3AF321A6AD492003647B0 /* Successwhite.png */; };
+		EAE3AF351A6AD5A1003647B0 /* Timer2.png in Resources */ = {isa = PBXBuildFile; fileRef = EAE3AF341A6AD5A1003647B0 /* Timer2.png */; };
+		EAE3AF371A6AD614003647B0 /* Map2.png in Resources */ = {isa = PBXBuildFile; fileRef = EAE3AF361A6AD614003647B0 /* Map2.png */; };
+		EAE3AF391A6AD6A2003647B0 /* Successwhite2.png in Resources */ = {isa = PBXBuildFile; fileRef = EAE3AF381A6AD6A2003647B0 /* Successwhite2.png */; };
+		EAE3AF3B1A6AD771003647B0 /* Flagwhite2.png in Resources */ = {isa = PBXBuildFile; fileRef = EAE3AF3A1A6AD771003647B0 /* Flagwhite2.png */; };
+		EAE3AF3D1A6ADE6E003647B0 /* Forward.png in Resources */ = {isa = PBXBuildFile; fileRef = EAE3AF3C1A6ADE6E003647B0 /* Forward.png */; };
+		EAE3AF3F1A6ADE91003647B0 /* Forward2.png in Resources */ = {isa = PBXBuildFile; fileRef = EAE3AF3E1A6ADE91003647B0 /* Forward2.png */; };
+		EAE3AF431A6AE449003647B0 /* AJData.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE3AF421A6AE449003647B0 /* AJData.m */; };
+		EAE3AF481A6AE450003647B0 /* AJDropDownPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE3AF451A6AE450003647B0 /* AJDropDownPicker.m */; };
+		EAE3AF491A6AE450003647B0 /* AJViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE3AF471A6AE450003647B0 /* AJViewController.m */; };
+		EAE3AF4E1A6AE45B003647B0 /* bg_blue.png in Resources */ = {isa = PBXBuildFile; fileRef = EAE3AF4A1A6AE45B003647B0 /* bg_blue.png */; };
+		EAE3AF4F1A6AE45B003647B0 /* bg_blue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EAE3AF4B1A6AE45B003647B0 /* bg_blue@2x.png */; };
+		EAE3AF501A6AE45B003647B0 /* drop_down_btn_background.png in Resources */ = {isa = PBXBuildFile; fileRef = EAE3AF4C1A6AE45B003647B0 /* drop_down_btn_background.png */; };
+		EAE3AF511A6AE45B003647B0 /* drop_down_btn_background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EAE3AF4D1A6AE45B003647B0 /* drop_down_btn_background@2x.png */; };
+		EAE3AF551A6AE478003647B0 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = EAE3AF521A6AE478003647B0 /* Default.png */; };
+		EAE3AF561A6AE478003647B0 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EAE3AF531A6AE478003647B0 /* Default@2x.png */; };
+		EAE3AF571A6AE478003647B0 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EAE3AF541A6AE478003647B0 /* Default-568h@2x.png */; };
+		EAE3AF5A1A6AEE79003647B0 /* UI Ultra Blur.png in Resources */ = {isa = PBXBuildFile; fileRef = EAE3AF591A6AEE79003647B0 /* UI Ultra Blur.png */; };
+		EAE3AF5E1A6AF811003647B0 /* PlacemarkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE3AF5D1A6AF811003647B0 /* PlacemarkViewController.m */; };
+		EAE3AF611A6AF955003647B0 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAE3AF601A6AF955003647B0 /* MapKit.framework */; };
+		EAE3AF641A6AFC60003647B0 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE3AF631A6AFC60003647B0 /* MapViewController.m */; };
 		EAECAC321A6389A400A61CC6 /* MKButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAECAC2B1A6389A400A61CC6 /* MKButton.swift */; };
 		EAECAC331A6389A400A61CC6 /* MKTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAECAC2C1A6389A400A61CC6 /* MKTextField.swift */; };
 		EAECAC341A6389A400A61CC6 /* MKTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAECAC2D1A6389A400A61CC6 /* MKTableViewCell.swift */; };
@@ -274,8 +297,6 @@
 		5B2A1129198FE914005F8E06 /* UIViewController+ECSlidingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ECSlidingViewController.m"; sourceTree = "<group>"; };
 		5B2A1130198FE9EC005F8E06 /* ParentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParentViewController.h; sourceTree = "<group>"; };
 		5B2A1131198FE9EC005F8E06 /* ParentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParentViewController.m; sourceTree = "<group>"; };
-		5B2A1134198FED19005F8E06 /* LoginUIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginUIViewController.h; sourceTree = "<group>"; };
-		5B2A1135198FED19005F8E06 /* LoginUIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginUIViewController.m; sourceTree = "<group>"; };
 		5B2A1138198FF6D2005F8E06 /* SlidingMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlidingMenuViewController.h; sourceTree = "<group>"; };
 		5B2A1139198FF6D2005F8E06 /* SlidingMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlidingMenuViewController.m; sourceTree = "<group>"; };
 		5B4026D219912295008A7A30 /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
@@ -473,6 +494,10 @@
 		EA8ADF3819FCD835009C25E8 /* Forestsun.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Forestsun.jpg; sourceTree = "<group>"; };
 		EA8B5E051A121C4800F46810 /* Lemona inc Blue Cover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lemona inc Blue Cover.png"; sourceTree = "<group>"; };
 		EA9100D719A6E37800933961 /* Coffee Beans.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Coffee Beans.jpg"; sourceTree = "<group>"; };
+		EA95AE831A6AC982003540B8 /* LoginUIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginUIViewController.h; sourceTree = "<group>"; };
+		EA95AE841A6AC982003540B8 /* LoginUIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginUIViewController.m; sourceTree = "<group>"; };
+		EA95AE861A6AD2EC003540B8 /* BlurMain.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BlurMain.jpg; sourceTree = "<group>"; };
+		EA95AE881A6AD2FF003540B8 /* Success.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Success.png; sourceTree = "<group>"; };
 		EAA9F5121A2B128C004DF14A /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		EAA9F5141A2B13CE004DF14A /* Bav1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bav1.png; sourceTree = "<group>"; };
 		EAA9F5151A2B13CE004DF14A /* Bav2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bav2.png; sourceTree = "<group>"; };
@@ -511,6 +536,34 @@
 		EAC566541A034C350049194F /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
 		EAD193451A24224F00B09AAB /* icon-coffee-shop@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-coffee-shop@3x.png"; sourceTree = "<group>"; };
 		EAD655CF1A5E530E0044E97C /* WelcomeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WelcomeView.xib; sourceTree = "<group>"; };
+		EAE3AF321A6AD492003647B0 /* Successwhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Successwhite.png; sourceTree = "<group>"; };
+		EAE3AF341A6AD5A1003647B0 /* Timer2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Timer2.png; sourceTree = "<group>"; };
+		EAE3AF361A6AD614003647B0 /* Map2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Map2.png; sourceTree = "<group>"; };
+		EAE3AF381A6AD6A2003647B0 /* Successwhite2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Successwhite2.png; sourceTree = "<group>"; };
+		EAE3AF3A1A6AD771003647B0 /* Flagwhite2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Flagwhite2.png; sourceTree = "<group>"; };
+		EAE3AF3C1A6ADE6E003647B0 /* Forward.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Forward.png; sourceTree = "<group>"; };
+		EAE3AF3E1A6ADE91003647B0 /* Forward2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Forward2.png; sourceTree = "<group>"; };
+		EAE3AF411A6AE449003647B0 /* AJData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AJData.h; sourceTree = "<group>"; };
+		EAE3AF421A6AE449003647B0 /* AJData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AJData.m; sourceTree = "<group>"; };
+		EAE3AF441A6AE450003647B0 /* AJDropDownPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AJDropDownPicker.h; sourceTree = "<group>"; };
+		EAE3AF451A6AE450003647B0 /* AJDropDownPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AJDropDownPicker.m; sourceTree = "<group>"; };
+		EAE3AF461A6AE450003647B0 /* AJViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AJViewController.h; sourceTree = "<group>"; };
+		EAE3AF471A6AE450003647B0 /* AJViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AJViewController.m; sourceTree = "<group>"; };
+		EAE3AF4A1A6AE45B003647B0 /* bg_blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_blue.png; sourceTree = "<group>"; };
+		EAE3AF4B1A6AE45B003647B0 /* bg_blue@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg_blue@2x.png"; sourceTree = "<group>"; };
+		EAE3AF4C1A6AE45B003647B0 /* drop_down_btn_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drop_down_btn_background.png; sourceTree = "<group>"; };
+		EAE3AF4D1A6AE45B003647B0 /* drop_down_btn_background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "drop_down_btn_background@2x.png"; sourceTree = "<group>"; };
+		EAE3AF521A6AE478003647B0 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		EAE3AF531A6AE478003647B0 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		EAE3AF541A6AE478003647B0 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		EAE3AF581A6AE48E003647B0 /* DropDownPicker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DropDownPicker-Prefix.pch"; sourceTree = "<group>"; };
+		EAE3AF591A6AEE79003647B0 /* UI Ultra Blur.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "UI Ultra Blur.png"; sourceTree = "<group>"; };
+		EAE3AF5C1A6AF811003647B0 /* PlacemarkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlacemarkViewController.h; sourceTree = "<group>"; };
+		EAE3AF5D1A6AF811003647B0 /* PlacemarkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlacemarkViewController.m; sourceTree = "<group>"; };
+		EAE3AF5F1A6AF827003647B0 /* CurrentAddress_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurrentAddress_Prefix.pch; sourceTree = "<group>"; };
+		EAE3AF601A6AF955003647B0 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		EAE3AF621A6AFC60003647B0 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		EAE3AF631A6AFC60003647B0 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
 		EAECAC2B1A6389A400A61CC6 /* MKButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKButton.swift; sourceTree = "<group>"; };
 		EAECAC2C1A6389A400A61CC6 /* MKTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKTextField.swift; sourceTree = "<group>"; };
 		EAECAC2D1A6389A400A61CC6 /* MKTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKTableViewCell.swift; sourceTree = "<group>"; };
@@ -536,13 +589,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA5B21371A08B27000CE88A0 /* CoreLocation.framework in Frameworks */,
+				EAE3AF611A6AF955003647B0 /* MapKit.framework in Frameworks */,
+				EA5B21491A08B2DF00CE88A0 /* Foundation.framework in Frameworks */,
+				EA5B21471A08B2D500CE88A0 /* CoreGraphics.framework in Frameworks */,
 				EA0E8C991A59362300383EDD /* AVFoundation.framework in Frameworks */,
 				6ED078361A30DA9200B126A4 /* Social.framework in Frameworks */,
 				6E6A50311A2EC931007C6DFD /* ParseFacebookUtils.framework in Frameworks */,
-				EA5B21471A08B2D500CE88A0 /* CoreGraphics.framework in Frameworks */,
 				EA882CF21A061612004318BD /* CFNetwork.framework in Frameworks */,
 				6E6A502A1A2EC597007C6DFD /* AudioToolbox.framework in Frameworks */,
-				EA5B21491A08B2DF00CE88A0 /* Foundation.framework in Frameworks */,
 				6E6A50321A2EC931007C6DFD /* ParseUI.framework in Frameworks */,
 				EA5B21451A08B2BF00CE88A0 /* Accounts.framework in Frameworks */,
 				6E6A50301A2EC931007C6DFD /* Parse.framework in Frameworks */,
@@ -578,6 +632,8 @@
 		5B2A10C1198FE75D005F8E06 = {
 			isa = PBXGroup;
 			children = (
+				EAE3AF621A6AFC60003647B0 /* MapViewController.h */,
+				EAE3AF631A6AFC60003647B0 /* MapViewController.m */,
 				EA63F46E1A6A6C6000CF1F24 /* background.jpg */,
 				6EC58DB21A3102AE009AA4D5 /* Changes */,
 				6EC58DB31A3102AE009AA4D5 /* TemplateIcon2x.png */,
@@ -594,6 +650,7 @@
 				EAA9F51C1A2B13CF004DF14A /* DeerBCC.jpg */,
 				EAA9F51D1A2B13CF004DF14A /* FenceBCC.jpg */,
 				EAA9F51F1A2B13CF004DF14A /* IT1.png */,
+				EAE3AF401A6AE431003647B0 /* Drop Down */,
 				EAA9F5201A2B13CF004DF14A /* IT2.png */,
 				EAA9F5211A2B13CF004DF14A /* IT3.png */,
 				EAA9F5221A2B13CF004DF14A /* ITMap.png */,
@@ -633,6 +690,7 @@
 		5B2A10CC198FE75D005F8E06 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				EAE3AF601A6AF955003647B0 /* MapKit.framework */,
 				E90CAC1C1A6A8A8A00D56E9A /* ParseCrashReporting.framework */,
 				EA0E8C981A59362300383EDD /* AVFoundation.framework */,
 				6ED078351A30DA9200B126A4 /* Social.framework */,
@@ -676,6 +734,9 @@
 				EAECAC291A63898F00A61CC6 /* Material Kit */,
 				5B2A10DD198FE75D005F8E06 /* AppDelegate.m */,
 				EAA9F5121A2B128C004DF14A /* Main.storyboard */,
+				EAE3AF591A6AEE79003647B0 /* UI Ultra Blur.png */,
+				EAE3AF3E1A6ADE91003647B0 /* Forward2.png */,
+				EAE3AF3C1A6ADE6E003647B0 /* Forward.png */,
 				EA1A4D0C1A6A4B4800E5A15A /* GuyRunWhite2.png */,
 				EA1A4D0A1A6A4A2100E5A15A /* GuyRunWhite.png */,
 				EA1A4D071A6A494E00E5A15A /* RunLeg.png */,
@@ -850,8 +911,6 @@
 		5B2A1133198FED06005F8E06 /* Sign Up */ = {
 			isa = PBXGroup;
 			children = (
-				5B2A1134198FED19005F8E06 /* LoginUIViewController.h */,
-				5B2A1135198FED19005F8E06 /* LoginUIViewController.m */,
 			);
 			name = "Sign Up";
 			sourceTree = "<group>";
@@ -868,6 +927,13 @@
 		5B4026D11991215B008A7A30 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				EAE3AF3A1A6AD771003647B0 /* Flagwhite2.png */,
+				EAE3AF381A6AD6A2003647B0 /* Successwhite2.png */,
+				EAE3AF361A6AD614003647B0 /* Map2.png */,
+				EAE3AF341A6AD5A1003647B0 /* Timer2.png */,
+				EAE3AF321A6AD492003647B0 /* Successwhite.png */,
+				EA95AE881A6AD2FF003540B8 /* Success.png */,
+				EA95AE861A6AD2EC003540B8 /* BlurMain.jpg */,
 				5B4026D219912295008A7A30 /* ProfileViewController.h */,
 				5B4026D319912295008A7A30 /* ProfileViewController.m */,
 			);
@@ -877,6 +943,8 @@
 		5BC0277C19913ACE005F037E /* List View */ = {
 			isa = PBXGroup;
 			children = (
+				EA95AE831A6AC982003540B8 /* LoginUIViewController.h */,
+				EA95AE841A6AC982003540B8 /* LoginUIViewController.m */,
 				5BC0279119914C3E005F037E /* Annotation.h */,
 				5BC0279219914C3E005F037E /* Annotation.m */,
 				5BC0277D19913ADB005F037E /* ListViewController.h */,
@@ -1056,6 +1124,30 @@
 			name = Other;
 			sourceTree = "<group>";
 		};
+		EAE3AF401A6AE431003647B0 /* Drop Down */ = {
+			isa = PBXGroup;
+			children = (
+				EAE3AF5F1A6AF827003647B0 /* CurrentAddress_Prefix.pch */,
+				EAE3AF5C1A6AF811003647B0 /* PlacemarkViewController.h */,
+				EAE3AF5D1A6AF811003647B0 /* PlacemarkViewController.m */,
+				EAE3AF411A6AE449003647B0 /* AJData.h */,
+				EAE3AF421A6AE449003647B0 /* AJData.m */,
+				EAE3AF441A6AE450003647B0 /* AJDropDownPicker.h */,
+				EAE3AF451A6AE450003647B0 /* AJDropDownPicker.m */,
+				EAE3AF461A6AE450003647B0 /* AJViewController.h */,
+				EAE3AF471A6AE450003647B0 /* AJViewController.m */,
+				EAE3AF4A1A6AE45B003647B0 /* bg_blue.png */,
+				EAE3AF4B1A6AE45B003647B0 /* bg_blue@2x.png */,
+				EAE3AF4C1A6AE45B003647B0 /* drop_down_btn_background.png */,
+				EAE3AF4D1A6AE45B003647B0 /* drop_down_btn_background@2x.png */,
+				EAE3AF521A6AE478003647B0 /* Default.png */,
+				EAE3AF531A6AE478003647B0 /* Default@2x.png */,
+				EAE3AF541A6AE478003647B0 /* Default-568h@2x.png */,
+				EAE3AF581A6AE48E003647B0 /* DropDownPicker-Prefix.pch */,
+			);
+			name = "Drop Down";
+			sourceTree = "<group>";
+		};
 		EAECAC291A63898F00A61CC6 /* Material Kit */ = {
 			isa = PBXGroup;
 			children = (
@@ -1141,10 +1233,10 @@
 				ORGANIZATIONNAME = "";
 				TargetAttributes = {
 					5B2A10C9198FE75D005F8E06 = {
-						DevelopmentTeam = JGKS72ETPX;
+						DevelopmentTeam = 45J9WDN6PB;
 					};
 					5B2A10EA198FE75D005F8E06 = {
-						DevelopmentTeam = JGKS72ETPX;
+						DevelopmentTeam = 45J9WDN6PB;
 						TestTargetID = 5B2A10C9198FE75D005F8E06;
 					};
 				};
@@ -1191,6 +1283,7 @@
 				EAA9F5411A2B13CF004DF14A /* VBC-White-Tree@2x.png in Resources */,
 				EAECAC3E1A6389B800A61CC6 /* uibaritem_icon.png in Resources */,
 				EAC1C0F61A0149D2006E9DD1 /* FBLogo2.png in Resources */,
+				EAE3AF501A6AE45B003647B0 /* drop_down_btn_background.png in Resources */,
 				EAC1C0F71A0149D2006E9DD1 /* FBLogo2@2x.png in Resources */,
 				EA1A4D081A6A494F00E5A15A /* RunLeg.png in Resources */,
 				EA04D0521A6395E4001D020C /* Cars.png in Resources */,
@@ -1201,8 +1294,10 @@
 				EA0007081A12047200239B2C /* Blurred Backgrounds (8).jpg in Resources */,
 				EAC1C0FB1A014FF4006E9DD1 /* facebooklogo5@2x.png in Resources */,
 				EA04D0561A63AC4A001D020C /* cali.png in Resources */,
+				EAE3AF5A1A6AEE79003647B0 /* UI Ultra Blur.png in Resources */,
 				EA4C6E4319A7447E00B92371 /* Bridge.jpg in Resources */,
 				EA891AD01A63850B0081FFC7 /* serve2.jpg in Resources */,
+				EAE3AF391A6AD6A2003647B0 /* Successwhite2.png in Resources */,
 				EA1B4E9219A6F2BF00D54F70 /* facebook-75.png in Resources */,
 				EA67654019F8AF8A00B1EC5C /* Pushbots.plist in Resources */,
 				EA6F29851A01D4470086A663 /* sign2-btn.png in Resources */,
@@ -1215,16 +1310,20 @@
 				EA00070C1A12047200239B2C /* Blurred Backgrounds (12).jpg in Resources */,
 				EA0007151A12047200239B2C /* Blurred Backgrounds (21).jpg in Resources */,
 				EAECAC3D1A6389B800A61CC6 /* wall-e.png in Resources */,
+				EAE3AF511A6AE45B003647B0 /* drop_down_btn_background@2x.png in Resources */,
 				EA2CC4DB1A6A4269003E4CB7 /* UIBLUR.png in Resources */,
 				EAA9F53F1A2B13CF004DF14A /* VBC website Logo.png in Resources */,
 				EA0007101A12047200239B2C /* Blurred Backgrounds (16).jpg in Resources */,
+				EAE3AF561A6AE478003647B0 /* Default@2x.png in Resources */,
 				EA2EDF371A35701E00BEA2CE /* IMG_2780.JPG in Resources */,
 				5B2A10E6198FE75D005F8E06 /* Images.xcassets in Resources */,
+				EA95AE871A6AD2EC003540B8 /* BlurMain.jpg in Resources */,
 				EA841BE11A11DC9300DF87A0 /* icon.png in Resources */,
 				EA3456BB19A6D61600AB17A1 /* raw-button@2x.png in Resources */,
 				EAA9F5371A2B13CF004DF14A /* IT2.png in Resources */,
 				EA1B4E9419A6F2BF00D54F70 /* google_plus-75.png in Resources */,
 				EAA9F5391A2B13CF004DF14A /* ITMap.png in Resources */,
+				EA95AE891A6AD2FF003540B8 /* Success.png in Resources */,
 				EA04D05A1A63B11B001D020C /* Social.jpg in Resources */,
 				EA214A361A02107A00BC909C /* topbar@2x.png in Resources */,
 				EA00070A1A12047200239B2C /* Blurred Backgrounds (10).jpg in Resources */,
@@ -1232,8 +1331,12 @@
 				EAA9F52D1A2B13CF004DF14A /* Bav3.png in Resources */,
 				EAC1C1021A015108006E9DD1 /* googleLogo5.png in Resources */,
 				EA841B9D1A11D21A00DF87A0 /* facebook.png in Resources */,
+				EAE3AF3B1A6AD771003647B0 /* Flagwhite2.png in Resources */,
 				EA04D0621A63B9F5001D020C /* atmoicons.png in Resources */,
+				EAE3AF3D1A6ADE6E003647B0 /* Forward.png in Resources */,
 				EA1B4E9719A6F2BF00D54F70 /* twitter-75@2x.png in Resources */,
+				EAE3AF371A6AD614003647B0 /* Map2.png in Resources */,
+				EAE3AF4F1A6AE45B003647B0 /* bg_blue@2x.png in Resources */,
 				EA04D0601A63B7F0001D020C /* Diversity.jpg in Resources */,
 				EA6F298D1A01DC3B0086A663 /* MainMenu.png in Resources */,
 				EA841BAB1A11D63D00DF87A0 /* Blurred Backgrounds (6).jpg in Resources */,
@@ -1241,9 +1344,11 @@
 				EA0007051A12047200239B2C /* Blurred Backgrounds (5).jpg in Resources */,
 				EAA9F5301A2B13CF004DF14A /* bragg-creek-road.jpg in Resources */,
 				6EC58DB51A3102AE009AA4D5 /* TemplateIcon2x.png in Resources */,
+				EAE3AF3F1A6ADE91003647B0 /* Forward2.png in Resources */,
 				EA841BDF1A11DC9300DF87A0 /* icon-menu.png in Resources */,
 				EA04D0541A6398CD001D020C /* Space.png in Resources */,
 				EA841BAD1A11D63D00DF87A0 /* Blurred Backgrounds (22).jpg in Resources */,
+				EAE3AF331A6AD492003647B0 /* Successwhite.png in Resources */,
 				EA0007041A12047200239B2C /* Blurred Backgrounds (4).jpg in Resources */,
 				EA0007031A12047200239B2C /* Blurred Backgrounds (3).jpg in Resources */,
 				EA04D0581A63AD73001D020C /* jlm-stars-hollywood-sign.jpg in Resources */,
@@ -1254,12 +1359,14 @@
 				EA2EDF331A35143800BEA2CE /* 053_Institution.png in Resources */,
 				EA0007141A12047200239B2C /* Blurred Backgrounds (20).jpg in Resources */,
 				6EC58DB41A3102AE009AA4D5 /* Changes in Resources */,
+				EAE3AF571A6AE478003647B0 /* Default-568h@2x.png in Resources */,
 				EAA9F5321A2B13CF004DF14A /* CAbear@2x.png in Resources */,
 				EA63F4561A6A665000CF1F24 /* panels.json in Resources */,
 				EA8B5E061A121C4800F46810 /* Lemona inc Blue Cover.png in Resources */,
 				EAC1C0ED1A0144DF006E9DD1 /* Location@2x.png in Resources */,
 				EAA9F53A1A2B13CF004DF14A /* Lemona Logo Black.png in Resources */,
 				EAA9F52F1A2B13CF004DF14A /* BAVMap.png in Resources */,
+				EAE3AF551A6AE478003647B0 /* Default.png in Resources */,
 				EA00070E1A12047200239B2C /* Blurred Backgrounds (14).jpg in Resources */,
 				EA1B4E9519A6F2BF00D54F70 /* google_plus-75@2x.png in Resources */,
 				EA63F46F1A6A6C6000CF1F24 /* background.jpg in Resources */,
@@ -1274,6 +1381,7 @@
 				EAA9F52E1A2B13CF004DF14A /* Bav4.png in Resources */,
 				EA0007071A12047200239B2C /* Blurred Backgrounds (7).jpg in Resources */,
 				EA1B4E9319A6F2BF00D54F70 /* facebook-75@2x.png in Resources */,
+				EAE3AF4E1A6AE45B003647B0 /* bg_blue.png in Resources */,
 				EA9100D819A6E37800933961 /* Coffee Beans.jpg in Resources */,
 				EAECAC4D1A6389D500A61CC6 /* icon2.png in Resources */,
 				EA1A4D061A6A492200E5A15A /* GuyRun.png in Resources */,
@@ -1295,6 +1403,7 @@
 				EAA9F53B1A2B13CF004DF14A /* Lemona Logo Black@2x.png in Resources */,
 				EA841BAA1A11D63D00DF87A0 /* Blurred Backgrounds (1).jpg in Resources */,
 				EA841BAC1A11D63D00DF87A0 /* Blurred Backgrounds (9).jpg in Resources */,
+				EAE3AF351A6AD5A1003647B0 /* Timer2.png in Resources */,
 				EAA9F5401A2B13CF004DF14A /* VBC-White-Tree.png in Resources */,
 				EAA9F52B1A2B13CF004DF14A /* Bav1.png in Resources */,
 				EA841B9F1A11D2B100DF87A0 /* googleLogo5@3x.png in Resources */,
@@ -1333,6 +1442,7 @@
 				EA0E8C941A59361000383EDD /* SCLAlertView.m in Sources */,
 				EAECAC4E1A6389D500A61CC6 /* ButtonViewController.swift in Sources */,
 				5B2A112F198FE914005F8E06 /* UIViewController+ECSlidingViewController.m in Sources */,
+				EA95AE851A6AC982003540B8 /* LoginUIViewController.m in Sources */,
 				EA22176A1A6A74470085D12D /* EFTimePickerViewController.m in Sources */,
 				EAECAC401A6389B800A61CC6 /* ViewController.swift in Sources */,
 				EA7371871A11E9BA00B3570F /* SevenSwitch.swift in Sources */,
@@ -1343,6 +1453,7 @@
 				EAECAC431A6389C100A61CC6 /* TableViewController.swift in Sources */,
 				EAECAC331A6389A400A61CC6 /* MKTextField.swift in Sources */,
 				EA841BD31A11D9C600DF87A0 /* LeftMenuVC.m in Sources */,
+				EAE3AF5E1A6AF811003647B0 /* PlacemarkViewController.m in Sources */,
 				EA841BC41A11D9AE00DF87A0 /* UIViewController+AMSlideMenu.m in Sources */,
 				EA841BC21A11D9AE00DF87A0 /* AMSlideMenuRightMenuSegue.m in Sources */,
 				EA0E8C961A59361000383EDD /* SCLAlertViewResponder.m in Sources */,
@@ -1351,6 +1462,7 @@
 				EA841BD21A11D9C600DF87A0 /* MainVC.m in Sources */,
 				5B2A1132198FE9EC005F8E06 /* ParentViewController.m in Sources */,
 				EA841BC01A11D9AE00DF87A0 /* AMSlideMenuLeftTableViewController.m in Sources */,
+				EAE3AF491A6AE450003647B0 /* AJViewController.m in Sources */,
 				EA841BD11A11D9C600DF87A0 /* UIColor+CreateMethods.m in Sources */,
 				5B2A10DE198FE75D005F8E06 /* AppDelegate.m in Sources */,
 				EA188A821A2BB8E1003708E9 /* SiteDetailViewController.m in Sources */,
@@ -1371,16 +1483,18 @@
 				EAECAC481A6389CE00A61CC6 /* TextFieldViewController.swift in Sources */,
 				EAECAC3F1A6389B800A61CC6 /* AppDelegate.swift in Sources */,
 				EAECAC441A6389C100A61CC6 /* MyCell.swift in Sources */,
+				EAE3AF481A6AE450003647B0 /* AJDropDownPicker.m in Sources */,
 				EA0E8C951A59361000383EDD /* SCLButton.m in Sources */,
 				EA841BD41A11D9C600DF87A0 /* RightMenuVC.m in Sources */,
 				5BC0279319914C3E005F037E /* Annotation.m in Sources */,
 				5B4026D419912295008A7A30 /* ProfileViewController.m in Sources */,
 				5B2A112B198FE914005F8E06 /* ECSlidingAnimationController.m in Sources */,
 				EAECAC461A6389C800A61CC6 /* BarButtonItemViewController.swift in Sources */,
+				EAE3AF431A6AE449003647B0 /* AJData.m in Sources */,
 				EA1CFF8E1A6A89AE00BE2011 /* KYCircularProgress.swift in Sources */,
-				5B2A1136198FED19005F8E06 /* LoginUIViewController.m in Sources */,
 				5B2A112A198FE914005F8E06 /* ECPercentDrivenInteractiveTransition.m in Sources */,
 				EA63F45D1A6A666900CF1F24 /* SRFSurfboardPanel.m in Sources */,
+				EAE3AF641A6AFC60003647B0 /* MapViewController.m in Sources */,
 				EA63F46D1A6A678A00CF1F24 /* UIButton+IndexPath.m in Sources */,
 				EA63F4591A6A665C00CF1F24 /* SRFSurfboardViewController.m in Sources */,
 				EAECAC351A6389A400A61CC6 /* MKLabel.swift in Sources */,

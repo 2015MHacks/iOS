@@ -78,7 +78,7 @@ int secondsLeft;
     self.view.backgroundColor = [UIColor colorWithRed:31/255.0f green:61/255.0f blue:91/255.0f alpha:1.0f];
     
     //Create our slider in the center of the view, with a width and height of '310' each.
-    CGRect minuteSliderFrame = CGRectMake(7, 140, 310, 310);
+    CGRect minuteSliderFrame = CGRectMake(7, 100, 310, 310);
     
     //Initialize the slider in the view.
     minuteSlider = [[EFCircularSlider alloc] initWithFrame:minuteSliderFrame];
@@ -187,7 +187,7 @@ int secondsLeft;
     [minuteSlider removeFromSuperview];
     
     //Create our slider in the center of the view, with a width and height of '310' each.
-    CGRect minuteSliderFrame = CGRectMake(7, 140, 310, 310);
+    CGRect minuteSliderFrame = CGRectMake(7, 100, 310, 310);
     
     //Initialize the slider in the view.
     minuteSlider = [[EFCircularSlider alloc] initWithFrame:minuteSliderFrame];
@@ -208,7 +208,7 @@ int secondsLeft;
     minuteSlider.labelFont = [UIFont systemFontOfSize:0];
     
     //Set the width of the slider to a nice, fat 20 pixels.
-    minuteSlider.lineWidth = 20;
+    minuteSlider.lineWidth = 15;
     
     //Set the slider's minimum value to '0'.
     minuteSlider.minimumValue = 0;

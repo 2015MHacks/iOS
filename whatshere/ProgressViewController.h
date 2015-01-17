@@ -7,15 +7,24 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "AJViewController.h"
+#import "AJData.h"
+#import <UIKit/UIKit.h>
+#import "AJDropDownPicker.h"
 
 @class CircleProgressView;
 
-@interface ProgressViewController : UIViewController
+@interface ProgressViewController : UIViewController <AJDropDownPickerDelegte>
 {
     IBOutlet UILabel *myCounterLabel;
     NSTimer *timer;
+    
 }
 
+
+@property (strong, nonatomic) IBOutlet UIButton *dropDownBtn;
+- (IBAction)didTapDropDownBtn:(id)sender;
+@property (strong, nonatomic) IBOutlet UITextView *urlLabel;
 //Interface Builder UI Elements
 @property (weak, nonatomic) IBOutlet UIButton *stopButton;
 @property (weak, nonatomic) IBOutlet UILabel *timeLabel;
@@ -27,3 +36,4 @@
 @property (strong, nonatomic) NSString *oldTime;
 
 @end
+

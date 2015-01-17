@@ -9,12 +9,13 @@
 #import "ParentViewController.h"
 #import <FacebookSDK/FacebookSDK.h>
 #import <UIKit/UIKit.h>
+#import <iAd/iAd.h>
 #import <Parse/Parse.h>
 #import <ParseUI/ParseUI.h>
 #import <AVFoundation/AVFoundation.h>
 #import "UIERealTimeBlurView.h"
 
-@interface LoginUIViewController: ParentViewController <UITextFieldDelegate, FBLoginViewDelegate, PFLogInViewControllerDelegate, PFSignUpViewControllerDelegate>
+@interface LoginUIViewController: ParentViewController <UITextFieldDelegate, ADBannerViewDelegate, FBLoginViewDelegate, PFLogInViewControllerDelegate, PFSignUpViewControllerDelegate>
 {
     // Defined Parse Login View Controller
     PFLogInViewController *_loginVC;
