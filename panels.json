@@ -1,0 +1,23 @@
+[
+ {
+ "text" : "Welcome to Runkit!",
+ "image" : "swipe",
+ },
+ {
+ "text" : "Runkit makes it delightfully easy to track your run and adjust your route accordingly.",
+ "image" : "surfer",
+ },
+ {
+ "text" : "With runkit you set your destination and if you cant make your preset route in time, your route will be rescheduled.",
+ "image" : "panels",
+ },
+ {
+ "text" : "See the documentation on GitHub for more information.",
+ "image" : "github",
+ },
+ {
+ "text" : "If you like Runkit give us a shoutout on facebook.",
+ "image" : "twitter",
+ "button" : "Thanks for using Runkit!"
+ }
+]
