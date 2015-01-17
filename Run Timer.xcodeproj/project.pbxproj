@@ -96,6 +96,8 @@
 		EA1B4E9519A6F2BF00D54F70 /* google_plus-75@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA1B4E8F19A6F2BF00D54F70 /* google_plus-75@2x.png */; };
 		EA1B4E9619A6F2BF00D54F70 /* twitter-75.png in Resources */ = {isa = PBXBuildFile; fileRef = EA1B4E9019A6F2BF00D54F70 /* twitter-75.png */; };
 		EA1B4E9719A6F2BF00D54F70 /* twitter-75@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA1B4E9119A6F2BF00D54F70 /* twitter-75@2x.png */; };
+		EA1CFF8E1A6A89AE00BE2011 /* KYCircularProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1CFF8D1A6A89AE00BE2011 /* KYCircularProgress.swift */; };
+		EA1CFF901A6A89F200BE2011 /* MKColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1CFF8F1A6A89F200BE2011 /* MKColor.swift */; };
 		EA214A351A02107A00BC909C /* topbar.png in Resources */ = {isa = PBXBuildFile; fileRef = EA214A331A02107A00BC909C /* topbar.png */; };
 		EA214A361A02107A00BC909C /* topbar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA214A341A02107A00BC909C /* topbar@2x.png */; };
 		EA2217681A6A74470085D12D /* EFCircularSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2217631A6A74470085D12D /* EFCircularSlider.m */; };
@@ -128,7 +130,6 @@
 		EA63F46A1A6A678200CF1F24 /* SRFSurfboardPanelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EA63F4691A6A678200CF1F24 /* SRFSurfboardPanelCell.m */; };
 		EA63F46D1A6A678A00CF1F24 /* UIButton+IndexPath.m in Sources */ = {isa = PBXBuildFile; fileRef = EA63F46C1A6A678A00CF1F24 /* UIButton+IndexPath.m */; };
 		EA63F46F1A6A6C6000CF1F24 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA63F46E1A6A6C6000CF1F24 /* background.jpg */; };
-		EA63F4721A6A6C9700CF1F24 /* KYCircularProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA63F4711A6A6C9700CF1F24 /* KYCircularProgress.swift */; };
 		EA67654019F8AF8A00B1EC5C /* Pushbots.plist in Resources */ = {isa = PBXBuildFile; fileRef = EA67653F19F8AF8A00B1EC5C /* Pushbots.plist */; };
 		EA6F29851A01D4470086A663 /* sign2-btn.png in Resources */ = {isa = PBXBuildFile; fileRef = EA6F29821A01D4470086A663 /* sign2-btn.png */; };
 		EA6F29861A01D4470086A663 /* sign2-btn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA6F29831A01D4470086A663 /* sign2-btn@2x.png */; };
@@ -223,7 +224,6 @@
 		EAECAC351A6389A400A61CC6 /* MKLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAECAC2E1A6389A400A61CC6 /* MKLabel.swift */; };
 		EAECAC361A6389A400A61CC6 /* MKImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAECAC2F1A6389A400A61CC6 /* MKImageView.swift */; };
 		EAECAC371A6389A400A61CC6 /* MKLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAECAC301A6389A400A61CC6 /* MKLayer.swift */; };
-		EAECAC381A6389A400A61CC6 /* MKColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAECAC311A6389A400A61CC6 /* MKColor.swift */; };
 		EAECAC3D1A6389B800A61CC6 /* wall-e.png in Resources */ = {isa = PBXBuildFile; fileRef = EAECAC391A6389B800A61CC6 /* wall-e.png */; };
 		EAECAC3E1A6389B800A61CC6 /* uibaritem_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EAECAC3A1A6389B800A61CC6 /* uibaritem_icon.png */; };
 		EAECAC3F1A6389B800A61CC6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAECAC3B1A6389B800A61CC6 /* AppDelegate.swift */; };
@@ -368,6 +368,8 @@
 		EA1B4E8F19A6F2BF00D54F70 /* google_plus-75@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "google_plus-75@2x.png"; sourceTree = "<group>"; };
 		EA1B4E9019A6F2BF00D54F70 /* twitter-75.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "twitter-75.png"; sourceTree = "<group>"; };
 		EA1B4E9119A6F2BF00D54F70 /* twitter-75@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "twitter-75@2x.png"; sourceTree = "<group>"; };
+		EA1CFF8D1A6A89AE00BE2011 /* KYCircularProgress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KYCircularProgress.swift; sourceTree = "<group>"; };
+		EA1CFF8F1A6A89F200BE2011 /* MKColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKColor.swift; sourceTree = "<group>"; };
 		EA214A331A02107A00BC909C /* topbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = topbar.png; path = "WhatsHere/Images.xcassets/App slices/topbar.imageset/topbar.png"; sourceTree = "<group>"; };
 		EA214A341A02107A00BC909C /* topbar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "topbar@2x.png"; path = "WhatsHere/Images.xcassets/App slices/topbar.imageset/topbar@2x.png"; sourceTree = "<group>"; };
 		EA2217621A6A74470085D12D /* EFCircularSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EFCircularSlider.h; sourceTree = "<group>"; };
@@ -409,7 +411,6 @@
 		EA63F46B1A6A678A00CF1F24 /* UIButton+IndexPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+IndexPath.h"; sourceTree = "<group>"; };
 		EA63F46C1A6A678A00CF1F24 /* UIButton+IndexPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+IndexPath.m"; sourceTree = "<group>"; };
 		EA63F46E1A6A6C6000CF1F24 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
-		EA63F4711A6A6C9700CF1F24 /* KYCircularProgress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KYCircularProgress.swift; sourceTree = "<group>"; };
 		EA67653F19F8AF8A00B1EC5C /* Pushbots.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Pushbots.plist; sourceTree = "<group>"; };
 		EA6F29821A01D4470086A663 /* sign2-btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sign2-btn.png"; sourceTree = "<group>"; };
 		EA6F29831A01D4470086A663 /* sign2-btn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sign2-btn@2x.png"; sourceTree = "<group>"; };
@@ -522,7 +523,6 @@
 		EAECAC2E1A6389A400A61CC6 /* MKLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKLabel.swift; sourceTree = "<group>"; };
 		EAECAC2F1A6389A400A61CC6 /* MKImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKImageView.swift; sourceTree = "<group>"; };
 		EAECAC301A6389A400A61CC6 /* MKLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKLayer.swift; sourceTree = "<group>"; };
-		EAECAC311A6389A400A61CC6 /* MKColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKColor.swift; sourceTree = "<group>"; };
 		EAECAC391A6389B800A61CC6 /* wall-e.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wall-e.png"; sourceTree = "<group>"; };
 		EAECAC3A1A6389B800A61CC6 /* uibaritem_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = uibaritem_icon.png; sourceTree = "<group>"; };
 		EAECAC3B1A6389B800A61CC6 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -995,7 +995,7 @@
 		EA63F4701A6A6C7F00CF1F24 /* Loading */ = {
 			isa = PBXGroup;
 			children = (
-				EA63F4711A6A6C9700CF1F24 /* KYCircularProgress.swift */,
+				EA1CFF8D1A6A89AE00BE2011 /* KYCircularProgress.swift */,
 			);
 			name = Loading;
 			sourceTree = "<group>";
@@ -1067,6 +1067,7 @@
 		EAECAC291A63898F00A61CC6 /* Material Kit */ = {
 			isa = PBXGroup;
 			children = (
+				EA1CFF8F1A6A89F200BE2011 /* MKColor.swift */,
 				EAECAC2B1A6389A400A61CC6 /* MKButton.swift */,
 				EAECAC2C1A6389A400A61CC6 /* MKTextField.swift */,
 				EAECAC2D1A6389A400A61CC6 /* MKTableViewCell.swift */,
@@ -1074,7 +1075,6 @@
 				EAECAC2F1A6389A400A61CC6 /* MKImageView.swift */,
 				EAECAC301A6389A400A61CC6 /* MKLayer.swift */,
 				EA63F4701A6A6C7F00CF1F24 /* Loading */,
-				EAECAC311A6389A400A61CC6 /* MKColor.swift */,
 				EAECAC391A6389B800A61CC6 /* wall-e.png */,
 				EAECAC3A1A6389B800A61CC6 /* uibaritem_icon.png */,
 				EAECAC3B1A6389B800A61CC6 /* AppDelegate.swift */,
@@ -1359,7 +1359,6 @@
 				EA841BC21A11D9AE00DF87A0 /* AMSlideMenuRightMenuSegue.m in Sources */,
 				EA0E8C961A59361000383EDD /* SCLAlertViewResponder.m in Sources */,
 				EA22176D1A6A75FA0085D12D /* ProgressViewController.m in Sources */,
-				EAECAC381A6389A400A61CC6 /* MKColor.swift in Sources */,
 				EA841BD51A11D9C600DF87A0 /* PushedVC.m in Sources */,
 				EA841BD21A11D9C600DF87A0 /* MainVC.m in Sources */,
 				5B2A1132198FE9EC005F8E06 /* ParentViewController.m in Sources */,
@@ -1367,10 +1366,10 @@
 				EA841BD11A11D9C600DF87A0 /* UIColor+CreateMethods.m in Sources */,
 				5B2A10DE198FE75D005F8E06 /* AppDelegate.m in Sources */,
 				EA188A821A2BB8E1003708E9 /* SiteDetailViewController.m in Sources */,
+				EA1CFF901A6A89F200BE2011 /* MKColor.swift in Sources */,
 				5B563ABD1998DBC8003CBE16 /* SearchViewController.m in Sources */,
 				EA2217681A6A74470085D12D /* EFCircularSlider.m in Sources */,
 				EA63F46A1A6A678200CF1F24 /* SRFSurfboardPanelCell.m in Sources */,
-				EA63F4721A6A6C9700CF1F24 /* KYCircularProgress.swift in Sources */,
 				EA0E8CCE1A59515200383EDD /* UIERealTimeBlurView.m in Sources */,
 				5B2A113A198FF6D2005F8E06 /* SlidingMenuViewController.m in Sources */,
 				5B2A112C198FE914005F8E06 /* ECSlidingInteractiveTransition.m in Sources */,
@@ -1390,6 +1389,7 @@
 				5B4026D419912295008A7A30 /* ProfileViewController.m in Sources */,
 				5B2A112B198FE914005F8E06 /* ECSlidingAnimationController.m in Sources */,
 				EAECAC461A6389C800A61CC6 /* BarButtonItemViewController.swift in Sources */,
+				EA1CFF8E1A6A89AE00BE2011 /* KYCircularProgress.swift in Sources */,
 				5B2A1136198FED19005F8E06 /* LoginUIViewController.m in Sources */,
 				5B2A112A198FE914005F8E06 /* ECPercentDrivenInteractiveTransition.m in Sources */,
 				EA63F45D1A6A666900CF1F24 /* SRFSurfboardPanel.m in Sources */,
