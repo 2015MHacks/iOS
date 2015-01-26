@@ -16,6 +16,7 @@
 @property (nonatomic, weak) IBOutlet UIBarButtonItem *getAddressButton;
 @property (nonatomic, strong) CLGeocoder *geocoder;
 @property (nonatomic, strong) MKPlacemark *placemark;
+
 @end
 
 @implementation AJViewController

@@ -36,10 +36,10 @@
     
     pinCount = 1;
     MKCoordinateRegion region = { {0.0, 0.0}, {0.0,0.0}};
-    region.center.latitude = 50.952989000000000000;
-    region.center.longitude = -114.565201000000000000;
-    region.span.longitudeDelta = 0.01f;
-    region.span.latitudeDelta = 0.01f;
+    region.center.latitude = 42.292223000000000000;
+    region.center.longitude = -83.716840;
+    region.span.longitudeDelta = 1;
+    region.span.latitudeDelta = 1;
     [_mapView setRegion:region animated:YES];
     
     Annotation *ann = [[Annotation alloc] init];
@@ -49,8 +49,8 @@
     [_mapView addAnnotation:ann];
     
 
-    region.center.latitude = 50.952843;
-    region.center.longitude = -114.563729;
+    region.center.latitude = 42.292223000000000000;
+    region.center.longitude = -83.716840;
     region.span.longitudeDelta = 0.01f;
     region.span.latitudeDelta = 0.01f;
     [_mapView setRegion:region animated:YES];
@@ -62,8 +62,8 @@
     [_mapView addAnnotation:annt];
     
 
-    region.center.latitude = 50.951677 ;
-    region.center.longitude = -114.560898;
+    region.center.latitude = 42.292223000000000000;
+    region.center.longitude = -83.716840;
     region.span.longitudeDelta = 0.01f;
     region.span.latitudeDelta = 0.01f;
     [_mapView setRegion:region animated:YES];
@@ -199,10 +199,10 @@
 - (IBAction)zoomIn:(id)sender {
     
     MKCoordinateRegion Bridge = { {0.0, 0.0} , {0.0, 0.0} };
-    Bridge.center.latitude = 50.952989000000000000;
-    Bridge.center.longitude = -114.565201000000000000;
-    Bridge.span.longitudeDelta = 0.02f;
-    Bridge.span.latitudeDelta = 0.02f;
+    Bridge.center.latitude = 42.292223;
+    Bridge.center.longitude = -83.716840;
+    Bridge.span.longitudeDelta = 0.01f;
+    Bridge.span.latitudeDelta = 0.01f;
     
     
     MKUserLocation *userLocation = _mapView.userLocation;
@@ -280,7 +280,7 @@
     NSLog(@"%@",userLocation);
     MKCoordinateRegion region =
     MKCoordinateRegionMakeWithDistance (
-                                        userLocation.location.coordinate, 20000, 20000);
+                                        userLocation.location.coordinate, 20, 20);
     [_mapView setRegion:region animated:YES];
 }
 
